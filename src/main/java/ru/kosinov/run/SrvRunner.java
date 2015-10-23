@@ -1,4 +1,4 @@
-package ru.kosinov.configuration;
+package ru.kosinov.run;
 
 import com.corundumstudio.socketio.SocketIOServer;
 import org.springframework.beans.factory.annotation.Autowired;

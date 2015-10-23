@@ -25,4 +25,5 @@ public class ChatEventHandler {
     public void onEvent(SocketIOClient client, AckRequest request, ChatObject data) {
         server.getBroadcastOperations().sendEvent("chatevent", data);
     }
+
 }
